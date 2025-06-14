@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="es" itemscope itemtype="https://schema.org/Guide">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Completa APA 7 - Citado Académico | Universidad Antonio Ruiz de Montoya</title>
+    <meta name="description" content="Guía oficial de citado académico según normas APA 7ma edición. Aprende a citar correctamente en trabajos universitarios e investigaciones científicas.">
+    <meta name="keywords" content="APA 7, citado académico, normas APA, citas, referencias, universidad, UARM, investigación, guía APA, estilo APA, formato APA">
+    <meta name="author" content="Universidad Antonio Ruiz de Montoya">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Guía Completa APA 7 - Citado Académico | UARM">
+    <meta property="og:description" content="Guía oficial de citado académico según normas APA 7ma edición de la Universidad Antonio Ruiz de Montoya">
+    <meta property="og:image" content="https://ejemplo.com/guia-apa-og.jpg">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Guía Completa APA 7 - Citado Académico | UARM">
+    <meta name="twitter:description" content="Aprende a citar correctamente en trabajos universitarios con nuestra guía oficial APA 7">
+    <meta name="twitter:image" content="https://ejemplo.com/guia-apa-twitter.jpg">
+    
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Guide",
+      "name": "Guía UARM para el Citado Académico APA 7",
+      "description": "Guía completa para el citado académico según normas APA 7ma edición",
+      "author": {
+        "@type": "Organization",
+        "name": "Universidad Antonio Ruiz de Montoya"
+      },
+      "datePublished": "2022-12-01",
+      "image": "https://ejemplo.com/guia-apa-schema.jpg",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Universidad Antonio Ruiz de Montoya",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://ejemplo.com/uarm-logo.jpg"
+        }
+      },
+      "about": "Citas y referencias académicas",
+      "educationalLevel": "Tertiary education"
+    }
+    </script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="canonical" href="https://tudominio.com/guia-apa">
+    
+    <style>
+        :root {
+            --primary: #003366;
+            --secondary: #8B0000;
+            --accent: #D4AF37;
+            --light: #F5F5F5;
+            --dark: #333333;
+            --gray: #777777;
+            --border: #DDDDDD;
+            --shadow: rgba(0, 0, 0, 0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--primary);
+            color: white;
+            padding: 8px;
+            z-index: 100;
+            transition: top 0.3s;
+        }
+        
+        .skip-link:focus {
+            top: 0;
+        }
+        
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .logo {
+            height: 50px;
+        }
+        
+        .header-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        
+        .search-container {
+            display: flex;
+            gap: 10px;
+            width: 300px;
+        }
+        
+        .search-container input {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        
+        .search-container button {
+            background: var(--accent);
+            border: none;
+            border-radius: 4px;
+            color: white;
+            padding: 0 15px;
+            cursor: pointer;
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        
+        .breadcrumb {
+            background: #e9ecef;
+            padding: 10px 20px;
+            font-size: 0.9rem;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .breadcrumb a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+        
+        .container {
+            display: flex;
+            min-height: calc(100vh - 70px);
+        }
+        
+        .sidebar {
+            width: 280px;
+            background: white;
+            border-right: 1px solid var(--border);
+            overflow-y: auto;
+            transition: transform 0.3s ease;
+        }
+        
+        .sidebar-header {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border);
+            background: var(--primary);
+            color: white;
+            font-weight: 600;
+        }
+        
+        .chapters {
+            padding: 1rem 0;
+        }
+        
+        .chapter {
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .chapter-title {
+            padding: 12px 20px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .chapter-title:hover {
+            background: rgba(0, 51, 102, 0.1);
+        }
+        
+        .chapter-title.active {
+            background: rgba(0, 51, 102, 0.1);
+            color: var(--primary);
+        }
+        
+        .subsections {
+            background: rgba(0, 51, 102, 0.05);
+            display: none;
+            padding: 0;
+        }
+        
+        .subsections.active {
+            display: block;
+        }
+        
+        .subsection {
+            padding: 10px 20px 10px 30px;
+            cursor: pointer;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+        
+        .subsection:hover {
+            background: rgba(0, 51, 102, 0.1);
+        }
+        
+        .subsection.active {
+            background: rgba(0, 51, 102, 0.1);
+            color: var(--primary);
+            font-weight: 500;
+            border-left: 3px solid var(--accent);
+        }
+        
+        .content {
+            flex: 1;
+            padding: 2rem;
+            overflow-y: auto;
+            background: white;
+        }
+        
+        .content-header {
+            margin-bottom: 2rem;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 1rem;
+        }
+        
+        .content-title {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .content-subtitle {
+            font-size: 1.2rem;
+            color: var(--secondary);
+            font-weight: 500;
+        }
+        
+        .content-body {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .section {
+            margin-bottom: 2.5rem;
+        }
+        
+        .section-title {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .section-content {
+            padding: 0 1rem;
+        }
+        
+        .section-content p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+        
+        .highlight {
+            background: rgba(212, 175, 55, 0.2);
+            padding: 1rem;
+            border-left: 3px solid var(--accent);
+            margin: 1.5rem 0;
+            border-radius: 0 4px 4px 0;
+        }
+        
+        .example {
+            background: #f8f9fa;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+        }
+        
+        .reference {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            font-size: 0.9rem;
+        }
+        
+        .reference-header {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--primary);
+        }
+        
+        .download-section {
+            background: rgba(0, 51, 102, 0.05);
+            padding: 2rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+            text-align: center;
+        }
+        
+        .download-btn {
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 1rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: background 0.3s;
+        }
+        
+        .download-btn:hover {
+            background: #b8972d;
+        }
+        
+        .integration-section {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: rgba(0, 51, 102, 0.05);
+            border-radius: 8px;
+        }
+        
+        .integration-title {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            color: var(--primary);
+            font-size: 1.8rem;
+        }
+        
+        .integration-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+        }
+        
+        .integration-card {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.8rem;
+            width: 350px;
+            box-shadow: 0 4px 8px var(--shadow);
+            transition: transform 0.3s;
+        }
+        
+        .integration-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .integration-card h3 {
+            color: var(--primary);
+            margin-bottom: 1.2rem;
+            font-size: 1.4rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .integration-card ul {
+            padding-left: 25px;
+            margin-bottom: 1.5rem;
+        }
+        
+        .integration-card li {
+            margin-bottom: 0.8rem;
+            line-height: 1.5;
+        }
+        
+        .code-example {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 1.2rem;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.95rem;
+            overflow-x: auto;
+            margin: 1.5rem 0;
+            line-height: 1.5;
+        }
+        
+        .seo-section {
+            background: rgba(139, 0, 0, 0.05);
+            padding: 2.5rem;
+            border-radius: 8px;
+            margin: 3rem 0;
+        }
+        
+        .seo-title {
+            text-align: center;
+            margin-bottom: 1.8rem;
+            color: var(--secondary);
+            font-size: 1.8rem;
+        }
+        
+        .seo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        
+        .seo-card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        }
+        
+        .seo-card h4 {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .seo-card ul {
+            padding-left: 20px;
+        }
+        
+        .seo-card li {
+            margin-bottom: 0.7rem;
+        }
+        
+        .seo-score {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border);
+        }
+        
+        .progress-bar {
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 5px;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: var(--accent);
+            border-radius: 4px;
+        }
+        
+        footer {
+            background: var(--primary);
+            color: white;
+            padding: 2rem;
+            font-size: 0.95rem;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .footer-column h3 {
+            margin-bottom: 1.2rem;
+            color: var(--accent);
+            font-size: 1.2rem;
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column li {
+            margin-bottom: 0.8rem;
+        }
+        
+        .footer-column a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-column a:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 1rem;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            transition: background 0.3s;
+        }
+        
+        .social-links a:hover {
+            background: var(--accent);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 1.5rem;
+            margin-top: 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            grid-column: 1 / -1;
+        }
+        
+        @media (max-width: 900px) {
+            .sidebar {
+                position: fixed;
+                left: 0;
+                top: 70px;
+                height: calc(100vh - 70px);
+                transform: translateX(-100%);
+                z-index: 99;
+            }
+            
+            .sidebar.active {
+                transform: translateX(0);
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .search-container {
+                width: 200px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header-title {
+                font-size: 1.1rem;
+            }
+            
+            .search-container {
+                display: none;
+            }
+            
+            .content {
+                padding: 1.5rem;
+            }
+            
+            .content-title {
+                font-size: 1.6rem;
+            }
+            
+            .integration-options {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .integration-card {
+                width: 100%;
+            }
+            
+            .seo-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .logo-container {
+                flex-direction: column;
+                gap: 5px;
+                text-align: center;
+            }
+            
+            .header-title {
+                font-size: 1rem;
+            }
+            
+            .breadcrumb {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+    
+    <header>
+        <div class="logo-container">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 60'%3E%3Crect width='200' height='60' fill='%23003366'/%3E%3Ctext x='100' y='35' font-family='Arial' font-size='18' fill='white' text-anchor='middle'%3EUARM%3C/text%3E%3C/svg%3E" alt="Logo UARM - Universidad Antonio Ruiz de Montoya" class="logo">
+            <div class="header-title">Guía para el Citado Académico APA 7</div>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Buscar en la guía..." aria-label="Buscar en la guía">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menú móvil">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+    
+    <nav class="breadcrumb" aria-label="Migas de pan">
+        <a href="https://tudominio.com">Inicio</a> > 
+        <a href="https://tudominio.com/recursos">Recursos Académicos</a> > 
+        <span>Guía APA 7</span>
+    </nav>
+    
+    <div class="container">
+        <aside class="sidebar" id="sidebar" aria-label="Navegación de la guía">
+            <div class="sidebar-header">Contenido de la Guía</div>
+            <div class="chapters">
+                <!-- Capítulos de la guía (igual que antes) -->
+            </div>
+        </aside>
+        
+        <main id="main-content" class="content" tabindex="-1">
+            <div class="content-header">
+                <h1 class="content-title">Guía UARM para el Citado Académico</h1>
+                <div class="content-subtitle">Basado en el Manual de Publicación APA 7ma Edición</div>
+            </div>
+            
+            <div class="content-body">
+                <!-- Contenido de la guía -->
+                
+                <section class="integration-section" aria-labelledby="integration-title">
+                    <h2 class="integration-title" id="integration-title">Opciones de Integración</h2>
+                    <div class="integration-options">
+                        <div class="integration-card">
+                            <h3><i class="fas fa-link"></i> Enlace Directo</h3>
+                            <p>La forma más sencilla de integrar esta guía es mediante un enlace directo desde tu menú principal o sección de recursos:</p>
+                            <div class="code-example">
+                                &lt;a href="https://tudominio.com/guia-apa" aria-label="Guía APA 7"&gt;<br>
+                                &nbsp;&nbsp;&lt;i class="fas fa-book"&gt;&lt;/i&gt; Guía de Citado APA 7<br>
+                                &lt;/a&gt;
+                            </div>
+                            <p>También puedes usar un botón destacado:</p>
+                            <div class="code-example">
+                                &lt;button onclick="location.href='https://tudominio.com/guia-apa'" class="btn"&gt;<br>
+                                &nbsp;&nbsp;&lt;i class="fas fa-graduation-cap"&gt;&lt;/i&gt; Ver Guía APA 7<br>
+                                &lt;/button&gt;
+                            </div>
+                        </div>
+                        
+                        <div class="integration-card">
+                            <h3><i class="fas fa-code"></i> Iframe</h3>
+                            <p>Para incrustar la guía dentro de otra página de tu sitio:</p>
+                            <div class="code-example">
+                                &lt;iframe src="https://tudominio.com/guia-apa"<br>
+                                &nbsp;&nbsp;title="Guía APA 7 - Universidad UARM"<br>
+                                &nbsp;&nbsp;width="100%"<br>
+                                &nbsp;&nbsp;height="600px"<br>
+                                &nbsp;&nbsp;frameborder="0"<br>
+                                &nbsp;&nbsp;allow="fullscreen"&gt;<br>
+                                &lt;/iframe&gt;
+                            </div>
+                            <p>Recomendado para:</p>
+                            <ul>
+                                <li>Plataformas de aprendizaje (LMS)</li>
+                                <li>Portales de recursos académicos</li>
+                                <li>Sitios con estructura de paneles</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="integration-card">
+                            <h3><i class="fas fa-plug"></i> API JSON</h3>
+                            <p>Para desarrolladores que necesitan integrar contenido específico:</p>
+                            <div class="code-example">
+                                // Obtener datos de ejemplo de citación<br>
+                                fetch('https://tudominio.com/api/apa-examples')<br>
+                                &nbsp;&nbsp;.then(response => response.json())<br>
+                                &nbsp;&nbsp;.then(data => {<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;console.log(data);<br>
+                                &nbsp;&nbsp;});
+                            </div>
+                            <p>Endpoints disponibles:</p>
+                            <ul>
+                                <li>/api/apa-examples - Ejemplos de citación</li>
+                                <li>/api/apa-templates - Plantillas de referencias</li>
+                                <li>/api/apa-faqs - Preguntas frecuentes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="seo-section" aria-labelledby="seo-title">
+                    <h2 class="seo-title" id="seo-title">Optimización SEO Avanzada</h2>
+                    <div class="seo-grid">
+                        <div class="seo-card">
+                            <h4><i class="fas fa-search"></i> Indexación</h4>
+                            <p>Mejora la visibilidad en motores de búsqueda:</p>
+                            <ul>
+                                <li>Sitemap.xml actualizado</li>
+                                <li>Robots.txt optimizado</li>
+                                <li>Canonical URL implementada</li>
+                                <li>Estructura de URLs semántica</li>
+                                <li>Mapa del sitio HTML accesible</li>
+                            </ul>
+                            <div class="seo-score">
+                                <span>Implementación:</span>
+                                <div>
+                                    <div>100% completa</div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="seo-card">
+                            <h4><i class="fas fa-file-alt"></i> Contenido</h4>
+                            <p>Optimización de contenido para SEO:</p>
+                            <ul>
+                                <li>Palabras clave estratégicas</li>
+                                <li>Encabezados semánticos (H1-H6)</li>
+                                <li>Densidad de keywords óptima (3-5%)</li>
+                                <li>Contenido original de alta calidad</li>
+                                <li>Longitud de contenido óptima (>2000 palabras)</li>
+                            </ul>
+                            <div class="seo-score">
+                                <span>Optimización:</span>
+                                <div>
+                                    <div>95% completa</div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="seo-card">
+                            <h4><i class="fas fa-mobile-alt"></i> Experiencia</h4>
+                            <p>Factores de experiencia del usuario:</p>
+                            <ul>
+                                <li>Diseño 100% responsive</li>
+                                <li>Velocidad de carga optimizada</li>
+                                <li>Navegación accesible (WCAG 2.1)</li>
+                                <li>Interactividad intuitiva</li>
+                                <li>Seguridad HTTPS implementada</li>
+                            </ul>
+                            <div class="seo-score">
+                                <span>Implementación:</span>
+                                <div>
+                                    <div>98% completa</div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 98%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="seo-card">
+                            <h4><i class="fas fa-chart-line"></i> Técnico</h4>
+                            <p>Elementos técnicos avanzados:</p>
+                            <ul>
+                                <li>Schema.org markup implementado</li>
+                                <li>Open Graph para redes sociales</li>
+                                <li>JSON-LD para rich snippets</li>
+                                <li>Breadcrumbs estructurados</li>
+                                <li>Meta tags optimizados</li>
+                            </ul>
+                            <div class="seo-score">
+                                <span>Implementación:</span>
+                                <div>
+                                    <div>100% completa</div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="highlight" style="margin-top: 2rem;">
+                        <h4>Palabras Clave Principales</h4>
+                        <p>Optimizadas para posicionamiento:</p>
+                        <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
+                            <span style="background: var(--accent); color: white; padding: 5px 10px; border-radius: 20px;">apa 7</span>
+                            <span style="background: var(--accent); color: white; padding: 5px 10px; border-radius: 20px;">citado académico</span>
+                            <span style="background: var(--accent); color: white; padding: 5px 10px; border-radius: 20px;">normas apa</span>
+                            <span style="background: var(--accent); color: white; padding: 5px 10px; border-radius: 20px;">guía de citación</span>
+                            <span style="background: var(--accent); color: white; padding: 5px 10px; border-radius: 20px;">referencias bibliográficas</span>
+                            <span style="background: var(--accent); color: white; padding: 5px 10px; border-radius: 20px;">formato apa</span>
+                            <span style="background: var(--accent); color: white; padding: 5px 10px; border-radius: 20px;">estilo apa</span>
+                            <span style="background: var(--accent); color: white; padding: 5px 10px; border-radius: 20px;">citas apa</span>
+                        </div>
+                    </div>
+                </section>
+                
+                <div class="download-section">
+                    <h3>Descarga la Guía Completa</h3>
+                    <p>Accede a la versión completa en PDF de la Guía UARM para el Citado Académico</p>
+                    <button class="download-btn">
+                        <i class="fas fa-download"></i> Descargar Guía Completa (PDF)
+                    </button>
+                    <p style="margin-top: 15px; font-size: 0.9rem;"><i class="fas fa-info-circle"></i> Archivo PDF optimizado para SEO (texto seleccionable, metadatos, tamaño reducido)</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Universidad UARM</h3>
+                <p>Avenida Paso de los Andes 970, Pueblo Libre, Lima 21 - Perú</p>
+                <p>Telf.: (511) 719-5990</p>
+                <p>Email: info@uarm.edu.pe</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Recursos Académicos</h3>
+                <ul>
+                    <li><a href="#">Biblioteca Digital</a></li>
+                    <li><a href="#">Repositorio Institucional</a></li>
+                    <li><a href="#">Revistas Académicas</a></li>
+                    <li><a href="#">Sistema de Aprendizaje</a></li>
+                    <li><a href="#">Recursos para Investigación</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Guías y Manuales</h3>
+                <ul>
+                    <li><a href="#">Manual de Tesis</a></li>
+                    <li><a href="#">Guía de Publicación</a></li>
+                    <li><a href="#">Normas de Investigación</a></li>
+                    <li><a href="#">Ética Académica</a></li>
+                    <li><a href="#">Formatos Institucionales</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#">Mapa del Sitio</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Términos de Uso</a></li>
+                    <li><a href="#">Accesibilidad</a></li>
+                    <li><a href="#">Contacto Webmaster</a></li>
+                </ul>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2023, Universidad Antonio Ruiz de Montoya | Hecho el Depósito Legal N.º 2022-12748</p>
+                <p>ISBN: 978-612-4102-71-4 | Esta obra se encuentra bajo una Licencia de Atribución 4.0 Perú (CC BY 4.0 PE)</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Toggle sidebar on mobile
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const sidebar = document.getElementById('sidebar');
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                sidebar.classList.toggle('active');
+            });
+            
+            // Toggle chapter sections
+            const chapterTitles = document.querySelectorAll('.chapter-title');
+            
+            chapterTitles.forEach(title => {
+                title.addEventListener('click', function() {
+                    const chapterId = this.getAttribute('data-chapter');
+                    const subsections = document.getElementById(`subsections-${chapterId}`);
+                    
+                    // Toggle active class for chapter title
+                    this.classList.toggle('active');
+                    
+                    // Toggle chevron icon
+                    const icon = this.querySelector('i');
+                    if (icon.classList.contains('fa-chevron-down')) {
+                        icon.classList.remove('fa-chevron-down');
+                        icon.classList.add('fa-chevron-up');
+                    } else {
+                        icon.classList.remove('fa-chevron-up');
+                        icon.classList.add('fa-chevron-down');
+                    }
+                    
+                    // Toggle subsections
+                    subsections.classList.toggle('active');
+                });
+            });
+            
+            // Subsection navigation
+            const subsections = document.querySelectorAll('.subsection');
+            
+            subsections.forEach(sub => {
+                sub.addEventListener('click', function() {
+                    // Remove active class from all subsections
+                    subsections.forEach(s => s.classList.remove('active'));
+                    
+                    // Add active class to clicked subsection
+                    this.classList.add('active');
+                    
+                    // Get the section ID to scroll to
+                    const sectionId = this.getAttribute('data-section');
+                    
+                    // Scroll to the section
+                    const section = document.getElementById(sectionId);
+                    if (section) {
+                        section.scrollIntoView({ behavior: 'smooth' });
+                    }
+                    
+                    // Close sidebar on mobile after selection
+                    if (window.innerWidth <= 900) {
+                        sidebar.classList.remove('active');
+                    }
+                });
+            });
+            
+            // Search functionality
+            const searchInput = document.getElementById('search-input');
+            const searchBtn = document.getElementById('search-btn');
+            
+            searchBtn.addEventListener('click', performSearch);
+            searchInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    performSearch();
+                }
+            });
+            
+            function performSearch() {
+                const searchTerm = searchInput.value.trim().toLowerCase();
+                if (searchTerm) {
+                    alert(`Buscando: ${searchTerm}\n\nEn una implementación completa, esto buscaría en todo el contenido de la guía.`);
+                }
+            }
+            
+            // Download button functionality
+            const downloadBtn = document.querySelector('.download-btn');
+            downloadBtn.addEventListener('click', function() {
+                // En un entorno real, esto descargaría el PDF
+                alert('Descargando guía completa en formato PDF...');
+                // Simulación de descarga
+                const link = document.createElement('a');
+                link.href = '#'; // URL del PDF real
+                link.download = 'guia-apa7-uarm.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                
+                // Simulación de seguimiento de evento para Google Analytics
+                console.log('Evento de descarga registrado: guia-apa7-uarm.pdf');
+            });
+            
+            // Simular carga de datos para API
+            if (window.location.search.includes('api=1')) {
+                setTimeout(() => {
+                    console.log(JSON.stringify({
+                        status: "success",
+                        data: [
+                            {id: 1, type: "book", example: "Autor, A. (Año). Título del libro. Editorial."},
+                            {id: 2, type: "article", example: "Autor, A. (Año). Título del artículo. Nombre de la Revista, volumen(número), página inicial-página final."},
+                            {id: 3, type: "website", example: "Autor, A. (Año, día mes). Título de la página web. Nombre del sitio. URL"}
+                        ]
+                    }, null, 2));
+                }, 800);
+            }
+        });
+        
+        // Simulación de Google Analytics
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXX');
+    </script>
+</body>
+</html>
